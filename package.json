@@ -1,9 +1,9 @@
 {
-	"name": "imagemin-pngquant",
+	"name": "imagemin-pngquant-chn",
 	"version": "9.0.2",
 	"description": "Imagemin plugin for `pngquant`",
 	"license": "MIT",
-	"repository": "imagemin/imagemin-pngquant",
+	"repository": "https://github.com/wuyax/imagemin-pngquant",
 	"engines": {
 		"node": ">=10"
 	},
@@ -28,7 +28,7 @@
 		"is-png": "^2.0.0",
 		"is-stream": "^2.0.0",
 		"ow": "^0.17.0",
-		"pngquant-bin": "^6.0.0"
+		"pngquant-bin-chn": "^6.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^12.0.3",

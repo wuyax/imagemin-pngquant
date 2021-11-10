@@ -2,7 +2,7 @@
 const execa = require('execa');
 const isPng = require('is-png');
 const isStream = require('is-stream');
-const pngquant = require('pngquant-bin');
+const pngquant = require('pngquant-bin-chn');
 const ow = require('ow');
 
 const imageminPngquant = (options = {}) => input => {

@@ -1,3 +1,7 @@
+# ⚠️ Warn
+
+This is a branch created for developers who can't access `raw.githubusercontent.com` properly. If you have a good internet connection, we do not recommend using this package.
+
 # imagemin-pngquant ![GitHub Actions Status](https://github.com/imagemin/imagemin-pngquant/workflows/test/badge.svg?branch=master)
 
 > [Imagemin](https://github.com/imagemin/imagemin) plugin for [`pngquant`](https://github.com/kornelski/pngquant)
@@ -6,7 +10,7 @@
 ## Install
 
 ```
-$ npm install imagemin-pngquant
+$ npm install imagemin-pngquant-chn
 ```
 
 
@@ -14,7 +18,7 @@ $ npm install imagemin-pngquant
 
 ```js
 const imagemin = require('imagemin');
-const imageminPngquant = require('imagemin-pngquant');
+const imageminPngquant = require('imagemin-pngquant-chn');
 
 (async () => {
 	await imagemin(['images/*.png'], {
